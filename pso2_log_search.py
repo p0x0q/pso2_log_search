@@ -6,7 +6,7 @@ import glob
 
 search = input("検索したい文字列を入力：")
 for filepath in glob.glob("./*"):
-    print(filepath)
+    #print(filepath)
     try:
         fr = open(filepath, "r",encoding="utf-16")
         for text in fr.readlines():
